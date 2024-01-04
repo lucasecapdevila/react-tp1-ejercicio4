@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import ListaTareas from './ListaTareas';
 
 const FormTareas = () => {
   return (
@@ -16,6 +17,7 @@ const FormTareas = () => {
           <Button variant='success' className='mx-2 px-4' type='submit'>Agregar</Button>
         </Form.Group>
 
+        <ListaTareas />
       </Form>
     </section>
   );
