@@ -1,11 +1,12 @@
-import React from 'react'
 import { Button, ListGroupItem } from 'react-bootstrap'
 
-export default function ItemTarea() {
+const ItemTarea = ({nombreTarea, borrarTarea}) => {
   return (
     <ListGroupItem className='d-flex align-items-center justify-content-between'>
-      Tarea
-      <Button variant='secondary' className='me-2'><i class="fa-solid fa-trash"></i></Button>
+      {nombreTarea}
+      <Button variant='secondary' className='me-2' onClick={() => {borrarTarea(nombreTarea)}}><i class="fa-solid fa-trash"></i></Button>
     </ListGroupItem>
   )
 }
+
+export default ItemTarea
