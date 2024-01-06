@@ -1,8 +1,15 @@
-# React + Vite
+# Ejercicios React - Rolling Code School 
+Prácticas con componentes, ciclo de vida del componente, eventos etc.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Ejercicio N°4: Lista de tareas - Dificultad: 🟢
 
-Currently, two official plugins are available:
+Crear una aplicación web que muestre una lista de tareas, al ingresar una tarea
+en el input y presionar enter, esta tarea se debe mostrar en una lista como la
+imagen a continuación:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
+
+![Ejercicio 3](./public/tp4.jpg)
+
+### Link de Deploy:
+- [Netlify](https://lucasecapdevila-tpn4react76i.netlify.app/)
